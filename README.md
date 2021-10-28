@@ -25,7 +25,7 @@ dapat juga menjalankan codelab ini dengan menggunakan salah satu perangkat berik
 - Emulator Android (memerlukan penyiapan di Android Studio)
 - Sebuah browser (Chrome diperlukan untuk debugging)
 
-# Langkah pertama membuat aplikasi flutter pemula
+# Langkah ke-1 membuat aplikasi flutter pemula
 
 Buat aplikasi Flutter dengan template sederhana, menggunakan petunjuk di Memulai dengan aplikasi Flutter pertama. Beri nama proyek startup_namer (bukan flutter_app)
 Tip: Jika tidak melihat “New Flutter Project” sebagai opsi di IDE, pastikan telah menginstal plugin untuk Flutter dan Dart.
@@ -49,7 +49,7 @@ Contoh ini membuat aplikasi Material. Materi adalah bahasa desain visual yang st
 - Tugas utama widget adalah menyediakan metode build() yang menjelaskan cara menampilkan widget dalam kaitannya dengan widget tingkat rendah lainnya.
 - Badan untuk contoh ini terdiri dari widget Pusat yang berisi widget turunan Teks. Widget Tengah menyelaraskan subpohon widgetnya ke tengah layar.
   
-# Langkah kedua Menggunakan paket eksternal
+# Langkah ke-2 Menggunakan paket eksternal
   
 Pada langkah ini, akan mulai menggunakan paket sumber terbuka bernama english_words, yang berisi beberapa ribu kata bahasa Inggris yang paling sering digunakan ditambah beberapa fungsi utilitas.
   
@@ -66,7 +66,7 @@ Jika aplikasi tidak berjalan dengan benar, cari kesalahan ketik. Jika Anda ingin
 - pubspec.yaml
 - lib/main.dart
 
-# Langkah ketiga Tambahkan widget Stateful
+# Langkah ke-3 Tambahkan widget Stateful
   
 Widget stateless tidak dapat diubah, artinya propertinya tidak dapat diubah—semua nilai bersifat final.
 Widget stateful mempertahankan status yang mungkin berubah selama masa pakai widget. Menerapkan widget stateful membutuhkan setidaknya dua kelas: 
@@ -94,7 +94,7 @@ Jika aplikasinya tidak berjalan dengan benar, cari kesalahan ketik. Jika ingin m
 
 lib/main.dart
 
-# Langkah keempat Buat ListView bergulir tak terbatas
+# Langkah ke-4 Buat ListView bergulir tak terbatas
 Pada langkah ini akan memperluas _RandomWordsState untuk menghasilkan dan menampilkan daftar pasangan kata. Saat pengguna menggulir daftar (ditampilkan dalam widget ListView) tumbuh tanpa batas. Konstruktor pabrik pembuat ListView memungkinkan untuk membuat tampilan daftar dengan malas, sesuai permintaan.
 
 1. Tambahkan daftar _suggestions ke kelas _RandomWordsState untuk menyimpan pasangan kata yang disarankan. Juga, tambahkan variabel _biggerFont untuk membuat ukuran font lebih besar.
