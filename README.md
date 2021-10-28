@@ -116,8 +116,3 @@ lib/main.dart
   
 # Profil atau Rilis berjalan
 Sejauh ini kita telah menjalankan aplikasi dalam mode debug. Mode debug memperdagangkan kinerja untuk fitur pengembang yang berguna seperti hot reload dan step debugging. Bukan hal yang tidak terduga untuk melihat kinerja yang lambat dan animasi yang tersendat-sendat dalam mode debug. Setelah siap untuk menganalisis kinerja atau merilis aplikasi, kita  dapat menggunakan mode build "profil" atau "rilis" Flutter. Untuk detail selengkapnya, lihat mode build Flutter.
-
-# Langkah - langkah selanjutnya 
-
-
-
