@@ -2,25 +2,6 @@
 
 Beberapa panduan untuk membuat aplikasi Flutter pertama. jika terbiasa dengan kode berorientasi objek dan konsep pemrograman dasar seperti variabel, loop, dan kondisional, dapat menyelesaikan tutorial ini. tidak memerlukan pengalaman sebelumnya dengan Dart, seluler, atau pemrograman web.
 
-   void main() => runApp(MyApp());
-
-  class MyApp extends StatelessWidget {
-    @override
-    Widget build(BuildContext context) {
-      return MaterialApp(
-        title: 'Welcome to Flutter',
-        home: Scaffold(
-          appBar: AppBar(
-            title: const Text('Welcome to Flutter'),
-          ),
-          body: const Center(
-            child: Text('Hello World'),
-          ),
-        ),
-      );
-    }
-  }
-
 # Apa yang akan dibangun pada bagian pertama ?
 
 menerapkan aplikasi sederhana yang menghasilkan nama yang diusulkan untuk perusahaan startup. Pengguna dapat memilih dan membatalkan pilihan nama, menyimpan yang terbaik. Kode dengan malas menghasilkan 10 nama sekaligus. Saat pengguna menggulir, lebih banyak nama dihasilkan. Tidak ada batasan seberapa jauh pengguna dapat menggulir.
